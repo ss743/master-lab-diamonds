@@ -1,0 +1,59 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global}
+    \entry{doherty}{article}{}
+      \name{author}{1}{}{%
+        {{hash=429d16b314c0212a02cc66389dfb39b7}{%
+           family={{M.\bibnamedelimi W.\bibnamedelimi Doherty,\bibnamedelimb N.\bibnamedelimi B.\bibnamedelimi Manson,\bibnamedelimb P.\bibnamedelimi Delaney,\bibnamedelimb F.\bibnamedelimi Jelezko,\bibnamedelimb J.\bibnamedelimi Wrachtrup,\bibnamedelimb L.\bibnamedelimi C.\bibnamedelimi L.\bibnamedelimi Hollenberg}},
+           family_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{429d16b314c0212a02cc66389dfb39b7}
+      \strng{fullhash}{429d16b314c0212a02cc66389dfb39b7}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{528}
+      \field{journaltitle}{Physics Reports}
+      \field{title}{The nitrogen-vacancy colour centre in diamond}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 45}
+      \range{pages}{45}
+    \endentry
+    \entry{anleitung}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=d2cfd9beb55aff32ca220db66a61ae09}{%
+           family={{J.-P.\bibnamedelimi Schröder,\bibnamedelimb D.\bibnamedelimi Palani,\bibnamedelimb O.\bibnamedelimi Orlov,\bibnamedelimb T.\bibnamedelimi Schaetz,\bibnamedelimb U.\bibnamedelimi Warring}},
+           family_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2cfd9beb55aff32ca220db66a61ae09}
+      \strng{fullhash}{d2cfd9beb55aff32ca220db66a61ae09}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Applied Master Lab Course: Diamonds for Sensing Applications}
+      \field{year}{2018}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
