@@ -1,4 +1,5 @@
 library(ggplot2)
+source("gausfit.R")
 theme_set(theme_bw())
 
 #Calibration Measurement for Laser Power
@@ -21,7 +22,54 @@ func <- function(x) fit[[1]][2]*x+fit[[1]][1];
 #        labs(x=expression(Ps / mW),y=expression(Pm / mW))
 
 #Calibration of the optical spectrometer
-daten=read.csv("../data/spectrom/sun spectra -004.csv",sep="\t",skip=33,header=FALSE,col.names=c("lambda","I"),dec=".")
+daten=read.csv("../data/spectrom/sun spectra -003.csv",sep=";",skip=33,header=FALSE,col.names=c("lambda","I"),dec=".")
+daten=daten[daten[[2]]>0,]
+daten=daten[1:(length(daten[[2]])-1),]
 os=data.frame(x=daten[[1]],y=daten[[2]])
 
-ggplot(os,aes(x=x,y=y)) + geom_point(pch=4,colour="black")
+pos=c()
+spos=c()
+
+range1=c(525,530);
+fit1=gausfit(os,range1);
+pos=append(pos,fit1["mu","Estimate"])
+spos=append(spos,fit1["mu","Std. Error"])
+range2=c(585,591);
+fit2=gausfit(os,range2);
+pos=append(pos,fit2["mu","Estimate"])
+spos=append(spos,fit2["mu","Std. Error"])
+# range3=c(594,596);
+# fit3=gausfit(os,range3);
+# pos=append(pos,fit3["mu","Estimate"])
+# spos=append(spos,fit3["mu","Std. Error"])
+range4=c(625,630);
+fit4=gausfit(os,range4);
+pos=append(pos,fit4["mu","Estimate"])
+spos=append(spos,fit4["mu","Std. Error"])
+range5=c(655,660);
+fit5=gausfit(os,range5);
+pos=append(pos,fit5["mu","Estimate"])
+spos=append(spos,fit5["mu","Std. Error"])
+range6=c(680,690);
+fit6=gausfit(os,range6);
+pos=append(pos,fit6["mu","Estimate"])
+spos=append(spos,fit6["mu","Std. Error"])
+range7=c(755,766);
+fit7=gausfit(os,range7);
+pos=append(pos,fit7["mu","Estimate"])
+spos=append(spos,fit7["mu","Std. Error"])
+range8=c(820,827);
+fit8=gausfit(os,range8);
+pos=append(pos,fit8["mu","Estimate"])
+spos=append(spos,fit8["mu","Std. Error"])
+
+ggplot(os,aes(x=x,y=y)) + geom_line(colour="black") + ylim(0,1)
+ggplot(os,aes(x=x,y=y)) + geom_line(colour="black") + plotgaus(fit1,range1) + plotgausline(fit1) + 
+                                                      plotgaus(fit2,range2) + plotgausline(fit2) + 
+                                                      # plotgaus(fit3,range3) + plotgausline(fit3) + 
+                                                      plotgaus(fit4,range4) + plotgausline(fit4) + 
+                                                      plotgaus(fit5,range5) + plotgausline(fit5) + 
+                                                      plotgaus(fit6,range6) + plotgausline(fit6) + 
+                                                      plotgaus(fit7,range7) + plotgausline(fit7) + 
+                                                      plotgaus(fit8,range8) + plotgausline(fit8)
+ggplot(os,aes(x=x,y=y)) + geom_point(colour="black",pch=4) + xlim(580,600) + plotgaus(fit2,range2) + plotgausline(fit2)
