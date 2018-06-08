@@ -1,0 +1,1 @@
+setwd("/home/simon/Dokumente/Uni/Master/lab/master-lab-diamonds/scripts/")

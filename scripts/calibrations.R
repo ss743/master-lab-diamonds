@@ -16,6 +16,12 @@ fit=lm(P_fit$y~P_fit$x,weights=1/(P_fit$sy)^2)
 func <- function(x) fit[[1]][2]*x+fit[[1]][1];
 
 
-ggplot(data=P_data,aes(x=x,y=y,sy=sy)) + stat_function(fun=func,colour="blue") + geom_errorbar(aes(ymin=y-sy,ymax=y+sy),colour="darkgrey") +
-        geom_point(colour="black",pch=4) + geom_point(data=P_fit,colour="blue",pch=4) + geom_line(data=data20mw,aes(x=x,y=y),colour="red") +
-        labs(x=expression(Ps / mW),y=expression(Pm / mW))
+#ggplot(data=P_data,aes(x=x,y=y,sy=sy)) + stat_function(fun=func,colour="blue") + geom_errorbar(aes(ymin=y-sy,ymax=y+sy),colour="darkgrey") +
+#        geom_point(colour="black",pch=4) + geom_point(data=P_fit,colour="blue",pch=4) + geom_line(data=data20mw,aes(x=x,y=y),colour="red") +
+#        labs(x=expression(Ps / mW),y=expression(Pm / mW))
+
+#Calibration of the optical spectrometer
+daten=read.csv("../data/spectrom/sun spectra -004.csv",sep="\t",skip=33,header=FALSE,col.names=c("lambda","I"),dec=".")
+os=data.frame(x=daten[[1]],y=daten[[2]])
+
+ggplot(os,aes(x=x,y=y)) + geom_point(pch=4,colour="black")
