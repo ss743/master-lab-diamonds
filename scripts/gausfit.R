@@ -7,8 +7,7 @@ gausfit <- function(input,bereich,sig0=0,N0=0) {
   ymin=min(daten$y)
   if(N0==0){
     ymax=max(daten$y)
-  } else {
-    ymax=N0
+    N0=ymin-ymax
   }
   mu0 =daten$x[which.min(daten$y)]
   if(sig0==0)
@@ -17,7 +16,29 @@ gausfit <- function(input,bereich,sig0=0,N0=0) {
     sig0=(bereich[2]-bereich[1])/6
   }
 
-  fit = nls(thegaussian,daten,start=list(C=ymax,N=ymin-ymax,mu=mu0,sig=sig0))
+  fit = nls(thegaussian,daten,start=list(C=ymax,N=N0,mu=mu0,sig=sig0))
+  
+  return(summary(fit)$parameters)
+} 
+posgausfit <- function(input,bereich,sig0=0,N0=0) {
+  
+  thegaussian <- y ~ C + N/(sqrt(2*pi)*sig)*exp(-(x-mu)^2/(2*sig^2))
+  
+  daten=subset(input,x>=bereich[1] & x<= bereich[2])
+  
+  ymin=min(daten$y)
+  if(N0==0){
+    ymax=max(daten$y)
+    N0=ymax-ymin
+  }
+  mu0 =daten$x[which.max(daten$y)]
+  if(sig0==0)
+  {
+    #sig0=(daten$x[bereich[2]]-daten$x[bereich[1]])/3
+    sig0=(bereich[2]-bereich[1])/3
+  }
+  
+  fit = nls(thegaussian,daten,start=list(C=ymin,N=N0,mu=mu0,sig=sig0))
   
   return(summary(fit)$parameters)
 } 
