@@ -66,8 +66,8 @@ dualgausfit <- function(input,bereich,sig0=0,N0=0) {
   return(summary(fit)$parameters)
 } 
 
-plotgausline <- function(params) {
-  line=data.frame(y=c(0,1),x=c(params["mu","Estimate"],params["mu","Estimate"]))
+plotgausline <- function(params,height=1) {
+  line=data.frame(y=c(0,height),x=c(params["mu","Estimate"],params["mu","Estimate"]))
   geom_line(data=line,colour="red",linetype=2)
 }
 plotgaus <- function(fitdata,bereich){ #--- Plotten der gefitteten Gaussfunktion in vorhandenen Graph

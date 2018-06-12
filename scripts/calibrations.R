@@ -89,15 +89,11 @@ ggplot(os,aes(x=x,y=y)) + geom_line(colour="black") + plotgaus(fit1,range1) + pl
 
 #Wavelength of the laser
 daten=read.csv("../data/osa/004.csv",sep=",",skip=33,header=FALSE,col.names=c("lambda","I"),dec=".")
-#daten=daten[daten[[2]]>0,]
-daten=daten[1:(length(daten[[2]])-1),]
 os_laser=data.frame(x=daten[[1]],y=daten[[2]])
 
 pos=c()
 spos=c()
 sigpos=c()
-
-ggplot(os_laser,aes(x=x,y=y)) + geom_line(colour="black") +xlim(500,530)
 
 range1=c(516,519);
 fit1=posgausfit(os_laser,range1,sig0=0.5,N0=0.3);
