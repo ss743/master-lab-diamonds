@@ -4,7 +4,7 @@ average_csv <- function(filename){
   daten=read.csv(filename,sep=",",skip=0,header=TRUE,dec=".");
   L=length(daten$time);
   N=(length(daten)-1)/2;
-  if(filename=="../data/osci/odmr_001.csv"){
+  if(filename=="../data/osci/odmr_001.csv" || filename=="../data/osci/apd-calibration-new.csv" || filename=="../data/osci/apd-calibration-20mW.csv"){
     N=(length(daten)-1)/3;
   }
   avg=array(dim=c(L,3));
@@ -35,6 +35,11 @@ change_units <- function(avg){
 plot_avg <- function(avg){
   ggplot(avg,aes(x=t,y=ch1)) + geom_point(pch=4,colour="black") + ylab("U / V") + xlab("t / s") + xlim(-0.2,0.45)
 }
+
+plot_ch2 <- function(avg){
+  ggplot(avg,aes(x=t,y=ch2)) + geom_point(pch=4,colour="black") + ylab("U / V") + xlab("t / s") + xlim(-0.2,0.45)
+}
+
 
 plot_spec <- function(avg){
   ggplot(avg,aes(x=f,y=ch1)) + geom_point(pch=4,colour="black") + ylab("U / V") + xlab("f / GHz")

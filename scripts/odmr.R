@@ -29,7 +29,14 @@ label_005=data.frame(x=fit_005['mu','Estimate'],y=0.004,text=sprintf("t1=(%0.4f+
 plot_avg(odmr_005) + plotgaus(fit_005,range_005) + plotgausline(fit_005,0.01,-0.005) + geom_label(data=label_005,aes(x=x,y=y,label=text),colour="red")
 
 spec_003 <- change_units(odmr_003);
-range_003s <- c(2.8,2.87)
+range_003s <- c(2.835,2.885)
 fit_003s <- fgausfit(spec_003,range_003s)
 label_003s=data.frame(x=fit_003s['mu','Estimate'],y=0.004,text=sprintf("f0=(%0.4f+-%0.4f) s",fit_003s['mu','Estimate'],fit_003s['mu','Std. Error']))
 plot_spec(spec_003) + plotgaus(fit_003s,range_003s) + plotgausline(fit_003s,0.01,-0.005) + geom_label(data=label_003s,aes(x=x,y=y,label=text),colour="red")
+
+if(do_calc) odmr_013 <- average_csv("../data/osci/odmr_013.csv")
+spec_013 <- change_units(odmr_013);
+range_013s <- c(2.835,2.885)
+fit_013s <- fgausfit(spec_013,range_013s)
+label_013s=data.frame(x=fit_013s['mu','Estimate'],y=0.004,text=sprintf("f0=(%0.4f+-%0.4f) s",fit_013s['mu','Estimate'],fit_013s['mu','Std. Error']))
+plot_spec(spec_013) + plotgaus(fit_013s,range_013s) + plotgausline(fit_013s,0.01,-0.005) + geom_label(data=label_013s,aes(x=x,y=y,label=text),colour="red")
