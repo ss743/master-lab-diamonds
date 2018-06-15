@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.6)  15 JUN 2018 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.6)  15 JUN 2018 16:50
 entering extended mode
 **./diamonds.tex
 (diamonds.tex
@@ -2424,28 +2424,11 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \num@segmentsi=\count323
 \@datafile=\read3
 ))
-("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfigur
-e.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip72
-\subfigcapskip=\skip73
-\subfigcaptopadj=\dimen293
-\subfigbottomskip=\skip74
-\subfigcapmargin=\dimen294
-\subfiglabelskip=\skip75
+("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption
+.sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
 \c@subfigure=\count324
-\c@lofdepth=\count325
-\c@subtable=\count326
-\c@lotdepth=\count327
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-
-("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfigur
-e.cfg")
-\subfig@top=\skip76
-\subfig@bottom=\skip77
+\c@subtable=\count325
 )
 ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
 sty"
@@ -2454,11 +2437,11 @@ Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
 ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
 sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count328
+\etb@tempcnta=\count326
 )
 ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count329
+\lrq@indent=\count327
 ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
@@ -2470,62 +2453,62 @@ y"
 ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.
 tex"
 \@xs@message=\write4
-\integerpart=\count330
-\decimalpart=\count331
+\integerpart=\count328
+\decimalpart=\count329
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count332
-\c@listtotal=\count333
-\c@listcount=\count334
-\c@liststart=\count335
-\c@liststop=\count336
-\c@citecount=\count337
-\c@citetotal=\count338
-\c@multicitecount=\count339
-\c@multicitetotal=\count340
-\c@instcount=\count341
-\c@maxnames=\count342
-\c@minnames=\count343
-\c@maxitems=\count344
-\c@minitems=\count345
-\c@citecounter=\count346
-\c@savedcitecounter=\count347
-\c@uniquelist=\count348
-\c@uniquename=\count349
-\c@refsection=\count350
-\c@refsegment=\count351
-\c@maxextratitle=\count352
-\c@maxextratitleyear=\count353
-\c@maxextradate=\count354
-\c@maxextraalpha=\count355
-\c@abbrvpenalty=\count356
-\c@highnamepenalty=\count357
-\c@lownamepenalty=\count358
-\c@maxparens=\count359
-\c@parenlevel=\count360
-\blx@tempcnta=\count361
-\blx@tempcntb=\count362
-\blx@tempcntc=\count363
-\blx@maxsection=\count364
-\blx@maxsegment@0=\count365
-\blx@notetype=\count366
-\blx@parenlevel@text=\count367
-\blx@parenlevel@foot=\count368
-\blx@sectionciteorder@0=\count369
-\labelnumberwidth=\skip78
-\labelalphawidth=\skip79
-\biblabelsep=\skip80
-\bibitemsep=\skip81
-\bibnamesep=\skip82
-\bibinitsep=\skip83
-\bibparsep=\skip84
-\bibhang=\skip85
+\c@tabx@nest=\count330
+\c@listtotal=\count331
+\c@listcount=\count332
+\c@liststart=\count333
+\c@liststop=\count334
+\c@citecount=\count335
+\c@citetotal=\count336
+\c@multicitecount=\count337
+\c@multicitetotal=\count338
+\c@instcount=\count339
+\c@maxnames=\count340
+\c@minnames=\count341
+\c@maxitems=\count342
+\c@minitems=\count343
+\c@citecounter=\count344
+\c@savedcitecounter=\count345
+\c@uniquelist=\count346
+\c@uniquename=\count347
+\c@refsection=\count348
+\c@refsegment=\count349
+\c@maxextratitle=\count350
+\c@maxextratitleyear=\count351
+\c@maxextradate=\count352
+\c@maxextraalpha=\count353
+\c@abbrvpenalty=\count354
+\c@highnamepenalty=\count355
+\c@lownamepenalty=\count356
+\c@maxparens=\count357
+\c@parenlevel=\count358
+\blx@tempcnta=\count359
+\blx@tempcntb=\count360
+\blx@tempcntc=\count361
+\blx@maxsection=\count362
+\blx@maxsegment@0=\count363
+\blx@notetype=\count364
+\blx@parenlevel@text=\count365
+\blx@parenlevel@foot=\count366
+\blx@sectionciteorder@0=\count367
+\labelnumberwidth=\skip72
+\labelalphawidth=\skip73
+\biblabelsep=\skip74
+\bibitemsep=\skip75
+\bibnamesep=\skip76
+\bibinitsep=\skip77
+\bibparsep=\skip78
+\bibhang=\skip79
 \blx@bcfin=\read4
 \blx@bcfout=\write5
-\c@mincomprange=\count370
-\c@maxcomprange=\count371
-\c@mincompwidth=\count372
+\c@mincomprange=\count368
+\c@maxcomprange=\count369
+\c@mincompwidth=\count370
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2537,88 +2520,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count373
-\c@savedafterword=\count374
-\c@annotator=\count375
-\c@savedannotator=\count376
-\c@author=\count377
-\c@savedauthor=\count378
-\c@bookauthor=\count379
-\c@savedbookauthor=\count380
-\c@commentator=\count381
-\c@savedcommentator=\count382
-\c@editor=\count383
-\c@savededitor=\count384
-\c@editora=\count385
-\c@savededitora=\count386
-\c@editorb=\count387
-\c@savededitorb=\count388
-\c@editorc=\count389
-\c@savededitorc=\count390
-\c@foreword=\count391
-\c@savedforeword=\count392
-\c@holder=\count393
-\c@savedholder=\count394
-\c@introduction=\count395
-\c@savedintroduction=\count396
-\c@namea=\count397
-\c@savednamea=\count398
-\c@nameb=\count399
-\c@savednameb=\count400
-\c@namec=\count401
-\c@savednamec=\count402
-\c@translator=\count403
-\c@savedtranslator=\count404
-\c@shortauthor=\count405
-\c@savedshortauthor=\count406
-\c@shorteditor=\count407
-\c@savedshorteditor=\count408
-\c@labelname=\count409
-\c@savedlabelname=\count410
-\c@institution=\count411
-\c@savedinstitution=\count412
-\c@lista=\count413
-\c@savedlista=\count414
-\c@listb=\count415
-\c@savedlistb=\count416
-\c@listc=\count417
-\c@savedlistc=\count418
-\c@listd=\count419
-\c@savedlistd=\count420
-\c@liste=\count421
-\c@savedliste=\count422
-\c@listf=\count423
-\c@savedlistf=\count424
-\c@location=\count425
-\c@savedlocation=\count426
-\c@organization=\count427
-\c@savedorganization=\count428
-\c@origlocation=\count429
-\c@savedoriglocation=\count430
-\c@origpublisher=\count431
-\c@savedorigpublisher=\count432
-\c@publisher=\count433
-\c@savedpublisher=\count434
-\c@language=\count435
-\c@savedlanguage=\count436
-\c@origlanguage=\count437
-\c@savedoriglanguage=\count438
-\c@pageref=\count439
-\c@savedpageref=\count440
-\shorthandwidth=\skip86
-\shortjournalwidth=\skip87
-\shortserieswidth=\skip88
-\shorttitlewidth=\skip89
-\shortauthorwidth=\skip90
-\shorteditorwidth=\skip91
-\locallabelnumberwidth=\skip92
-\locallabelalphawidth=\skip93
-\localshorthandwidth=\skip94
-\localshortjournalwidth=\skip95
-\localshortserieswidth=\skip96
-\localshorttitlewidth=\skip97
-\localshortauthorwidth=\skip98
-\localshorteditorwidth=\skip99
+\c@afterword=\count371
+\c@savedafterword=\count372
+\c@annotator=\count373
+\c@savedannotator=\count374
+\c@author=\count375
+\c@savedauthor=\count376
+\c@bookauthor=\count377
+\c@savedbookauthor=\count378
+\c@commentator=\count379
+\c@savedcommentator=\count380
+\c@editor=\count381
+\c@savededitor=\count382
+\c@editora=\count383
+\c@savededitora=\count384
+\c@editorb=\count385
+\c@savededitorb=\count386
+\c@editorc=\count387
+\c@savededitorc=\count388
+\c@foreword=\count389
+\c@savedforeword=\count390
+\c@holder=\count391
+\c@savedholder=\count392
+\c@introduction=\count393
+\c@savedintroduction=\count394
+\c@namea=\count395
+\c@savednamea=\count396
+\c@nameb=\count397
+\c@savednameb=\count398
+\c@namec=\count399
+\c@savednamec=\count400
+\c@translator=\count401
+\c@savedtranslator=\count402
+\c@shortauthor=\count403
+\c@savedshortauthor=\count404
+\c@shorteditor=\count405
+\c@savedshorteditor=\count406
+\c@labelname=\count407
+\c@savedlabelname=\count408
+\c@institution=\count409
+\c@savedinstitution=\count410
+\c@lista=\count411
+\c@savedlista=\count412
+\c@listb=\count413
+\c@savedlistb=\count414
+\c@listc=\count415
+\c@savedlistc=\count416
+\c@listd=\count417
+\c@savedlistd=\count418
+\c@liste=\count419
+\c@savedliste=\count420
+\c@listf=\count421
+\c@savedlistf=\count422
+\c@location=\count423
+\c@savedlocation=\count424
+\c@organization=\count425
+\c@savedorganization=\count426
+\c@origlocation=\count427
+\c@savedoriglocation=\count428
+\c@origpublisher=\count429
+\c@savedorigpublisher=\count430
+\c@publisher=\count431
+\c@savedpublisher=\count432
+\c@language=\count433
+\c@savedlanguage=\count434
+\c@origlanguage=\count435
+\c@savedoriglanguage=\count436
+\c@pageref=\count437
+\c@savedpageref=\count438
+\shorthandwidth=\skip80
+\shortjournalwidth=\skip81
+\shortserieswidth=\skip82
+\shorttitlewidth=\skip83
+\shortauthorwidth=\skip84
+\shorteditorwidth=\skip85
+\locallabelnumberwidth=\skip86
+\locallabelalphawidth=\skip87
+\localshorthandwidth=\skip88
+\localshortjournalwidth=\skip89
+\localshortserieswidth=\skip90
+\localshorttitlewidth=\skip91
+\localshortauthorwidth=\skip92
+\localshorteditorwidth=\skip93
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -2632,13 +2615,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
 def"
 File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count441
-\c@textcitetotal=\count442
-\c@textcitemaxnames=\count443
-\c@biburlnumpenalty=\count444
-\c@biburlucpenalty=\count445
-\c@biburllcpenalty=\count446
-\c@smartand=\count447
+\c@textcitecount=\count439
+\c@textcitetotal=\count440
+\c@textcitemaxnames=\count441
+\c@biburlnumpenalty=\count442
+\c@biburlucpenalty=\count443
+\c@biburllcpenalty=\count444
+\c@smartand=\count445
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
@@ -2658,8 +2641,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stand
 ard.bbx"
 File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count448
-\c@bbx:relatedtotal=\count449
+\c@bbx:relatedcount=\count446
+\c@bbx:relatedtotal=\count447
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
@@ -2667,8 +2650,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\numer
 ic-comp.cbx"
 File: numeric-comp.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count450
-\c@cbx@tempcntb=\count451
+\c@cbx@tempcnta=\count448
+\c@cbx@tempcntb=\count449
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -2704,8 +2687,8 @@ File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count452
-\@quotereset=\count453
+\@quotelevel=\count450
+\@quotereset=\count451
 (diamonds.aux (fp_abstract.aux) (fp_objective_and_intro.aux)
 (fp_theoretical_background.aux) (fp_set_up_and_procedure.aux)
 (fp_evaluation.aux) (fp_summary.aux) (fp_appendix.aux))
@@ -2775,7 +2758,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count454
+\c@section@level=\count452
 )
 LaTeX Info: Redefining \ref on input line 73.
 LaTeX Info: Redefining \pageref on input line 73.
@@ -2788,16 +2771,16 @@ LaTeX Info: Redefining \nameref on input line 73.
 ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count455
-\scratchdimen=\dimen295
+\scratchcounter=\count453
+\scratchdimen=\dimen293
 \scratchbox=\box66
-\nofMPsegments=\count456
-\nofMParguments=\count457
+\nofMPsegments=\count454
+\nofMParguments=\count455
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count458
-\MPscratchDim=\dimen296
-\MPnumerator=\count459
-\makeMPintoPDFobject=\count460
+\MPscratchCnt=\count456
+\MPscratchDim=\dimen294
+\MPnumerator=\count457
+\makeMPintoPDFobject=\count458
 \everyMPtoPDFconversion=\toks40
 )
 ("C:\Users\cemh_\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
@@ -2815,9 +2798,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\c@lstlisting=\count461
+\c@lstlisting=\count459
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
@@ -3062,7 +3044,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 {C:/Users/cemh_/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<../figures/siegel.png, id=76, 414.54875pt x 414.54875pt>
+<../figures/siegel.png, id=92, 414.54875pt x 414.54875pt>
 File: ../figures/siegel.png Graphic file (type png)
 <use ../figures/siegel.png>
 Package pdftex.def Info: ../figures/siegel.png  used on input line 75.
@@ -3112,12 +3094,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
@@ -3126,74 +3108,335 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 ]
 \openout2 = `fp_theoretical_background.aux'.
 
- (fp_theoretical_background.tex) [2
+ (fp_theoretical_background.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 ...xist in two charge states, the neutral NV^
+                                                  {0} state and the negative...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! Package inputenc Error: Unicode char ﬀ (U+FB00)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...riment, and is mostly due to physical eﬀ
+                                                  ects by the magnetic momen...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...��ects by the magnetic moment. A simpliﬁ
+                                                  ed quantum structure of th...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...ance of 1.945 eV in between, here calles ^
+                                                  {3}A_{2} and ^{3}E  respec...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! Package inputenc Error: Unicode char λ (U+3BB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...ansition contributes to a wavelength of λ
+                                                  _{zpl} = 637$nm$ and has a...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \right.
+\rangle ->\delimiter "526930B 
+                              
+l.20 ...her occur from the state|e,ms\right\rangle
+                                                   , in a weak non-radiative...
+I'm ignoring a \right that had no matching \left.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (689.98088pt too wide) in paragraph at lines 19--21
+\T1/lmr/m/n/12 be-tween, here calles $[]\OML/lmm/m/it/12 A[]and[]Erespectivelly
+:Themainradiativeconnectionbetweenthegroundstateandtheexcitedstateisduetothezer
+ophononline\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 ZPL\OT1/lmr/m/n/12 )\OML/lmm/m/it/
+12 :ForthenegativelychargedNVcenter; thistransitioncontributestoawavelengthof[]
+ \OT1/lmr/m/n/12 =
+ []
+
+
+Overfull \hbox (1035.04419pt too wide) in paragraph at lines 19--21
+\OT1/lmr/m/n/12 637$\T1/lmr/m/n/12 nm$\OML/lmm/m/it/12 andhasalifetimeof\OT1/lm
+r/m/n/12 10 \OMS/lmsy/m/n/12   \OT1/lmr/m/n/12 30\OML/lmm/m/it/12 ns:\OT1/lmr/m
+/n/12 (\OML/lmm/m/it/12 ToobservetheZPL; asimpleabsortionemitionproceswasdonewi
+tha\OT1/lmr/m/n/12 519\OML/lmm/m/it/12 nmlaserwasdone; identifinthispeakat::::\
+OT1/lmr/m/n/12 )\OML/lmm/m/it/12 Anaditionalprocesfromtheexitedstadeisanonradia
+tiveemissionintothemetastablesingletstate [] :Thiscaneitheroccurfromthestate\OM
+S/lmsy/m/n/12 j\OML/lmm/m/it/12 e;ms; inaweaknon \OMS/lmsy/m/n/12  
+ []
+
+) [2
 
 
 ]
 \openout2 = `fp_set_up_and_procedure.aux'.
 
- (fp_set_up_and_procedure.tex)
-[3
+ (fp_set_up_and_procedure.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6 ...rip was meassure wit a calibrator at 1.2\pm
+                                                   0.1 $mm$ and the camara u...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6 ...0X1024 pixels, ecah pixel with 5.2X5.2 $\mu
+                                                   m$ acording to the manufa...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! Package inputenc Error: Unicode char ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...the confocal setup is equal to the magniﬁ
+                                                  cation $M=f2/f1$. Acording...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6 ...6X magnification. The convertion factor (c_
+                                                  {f}) is given by:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \begin{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.9 \end{equation}
+                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.9 \end{equation}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{equation}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 \end{equation}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.9 \end{equation}
+                  
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (103.834pt too wide) in paragraph at lines 6--10
+\T1/lmr/m/n/12 1.2$\OMS/lmsy/m/n/12 \OT1/lmr/m/n/12 0\OML/lmm/m/it/12 :\OT1/lm
+r/m/n/12 1$\T1/lmr/m/n/12 mm$\OML/lmm/m/it/12 andthecamarausedwasaThorlabsCCdca
+merawithdimentionsof\OT1/lmr/m/n/12 1280\OML/lmm/m/it/12 X\OT1/lmr/m/n/12 1024\
+OML/lmm/m/it/12 pixels; ecahpixelwith\OT1/lmr/m/n/12 5\OML/lmm/m/it/12 :\OT1/lm
+r/m/n/12 2\OML/lmm/m/it/12 X\OT1/lmr/m/n/12 5\OML/lmm/m/it/12 :\OT1/lmr/m/n/12 
+2$$\OML/lmm/m/it/12 m$
+ []
+
+) [3
 
 
 ]
 \openout2 = `fp_evaluation.aux'.
 
  (fp_evaluation.tex
-<../figures/powercal.png, id=120, 677.53125pt x 451.6875pt>
+<../figures/powercal.png, id=147, 677.53125pt x 451.6875pt>
 File: ../figures/powercal.png Graphic file (type png)
 <use ../figures/powercal.png>
-Package pdftex.def Info: ../figures/powercal.png  used on input line 7.
+Package pdftex.def Info: ../figures/powercal.png  used on input line 8.
 (pdftex.def)             Requested size: 512.14963pt x 341.44585pt.
-<../figures/sunspectrum.png, id=121, 700.11563pt x 413.29407pt>
+<../figures/sunspectrum.png, id=148, 700.11563pt x 413.29407pt>
 File: ../figures/sunspectrum.png Graphic file (type png)
 <use ../figures/sunspectrum.png>
-Package pdftex.def Info: ../figures/sunspectrum.png  used on input line 14.
+Package pdftex.def Info: ../figures/sunspectrum.png  used on input line 16.
 (pdftex.def)             Requested size: 512.14963pt x 302.3517pt.
 
 
-LaTeX Warning: Citation 'fraunhoferlines' on page 4 undefined on input line 22.
+LaTeX Warning: Citation 'fraunhoferlines' on page 4 undefined on input line 24.
 
 
-<../figures/laserspectrum.png, id=122, 677.53125pt x 451.6875pt>
+<../figures/laserspectrum.png, id=149, 677.53125pt x 451.6875pt>
 File: ../figures/laserspectrum.png Graphic file (type png)
 <use ../figures/laserspectrum.png>
-Package pdftex.def Info: ../figures/laserspectrum.png  used on input line 36.
+Package pdftex.def Info: ../figures/laserspectrum.png  used on input line 39.
 (pdftex.def)             Requested size: 512.14963pt x 341.44585pt.
-<../figures/fluorescence.png, id=123, 677.53125pt x 451.6875pt>
+<../figures/odmr-cal-1.png, id=150, 451.6875pt x 301.125pt>
+File: ../figures/odmr-cal-1.png Graphic file (type png)
+<use ../figures/odmr-cal-1.png>
+Package pdftex.def Info: ../figures/odmr-cal-1.png  used on input line 48.
+(pdftex.def)             Requested size: 256.07481pt x 170.72406pt.
+<../figures/odmr-cal-2.png, id=151, 451.6875pt x 301.125pt>
+File: ../figures/odmr-cal-2.png Graphic file (type png)
+<use ../figures/odmr-cal-2.png>
+Package pdftex.def Info: ../figures/odmr-cal-2.png  used on input line 51.
+(pdftex.def)             Requested size: 256.07481pt x 170.72406pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 47--54
+[]$[]$ $[]$ 
+ []
+
+<../figures/odmr-cal-4.png, id=152, 451.6875pt x 301.125pt>
+File: ../figures/odmr-cal-4.png Graphic file (type png)
+<use ../figures/odmr-cal-4.png>
+Package pdftex.def Info: ../figures/odmr-cal-4.png  used on input line 61.
+(pdftex.def)             Requested size: 256.07481pt x 170.72406pt.
+<../figures/odmr-cal-3.png, id=153, 451.6875pt x 301.125pt>
+File: ../figures/odmr-cal-3.png Graphic file (type png)
+<use ../figures/odmr-cal-3.png>
+Package pdftex.def Info: ../figures/odmr-cal-3.png  used on input line 65.
+(pdftex.def)             Requested size: 256.07481pt x 170.72406pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 60--68
+[]$[]$ $[]$ 
+ []
+
+[4
+
+
+ <../figures/powercal.png (PNG copy)>]
+<../figures/fluorescence.png, id=162, 677.53125pt x 451.6875pt>
 File: ../figures/fluorescence.png Graphic file (type png)
 <use ../figures/fluorescence.png>
-Package pdftex.def Info: ../figures/fluorescence.png  used on input line 46.
+Package pdftex.def Info: ../figures/fluorescence.png  used on input line 93.
 (pdftex.def)             Requested size: 512.14963pt x 341.44585pt.
-) [4
-
-
- <../figures/powercal.png (PNG copy)>] [5 <../figures/sunspectrum.png (PNG copy
-)>] [6 <../figures/laserspectrum.png (PNG copy)>] [7 <../figures/fluorescence.p
+<../figures/odmr-1.png, id=163, 564.60938pt x 376.40625pt>
+File: ../figures/odmr-1.png Graphic file (type png)
+<use ../figures/odmr-1.png>
+Package pdftex.def Info: ../figures/odmr-1.png  used on input line 101.
+(pdftex.def)             Requested size: 409.72125pt x 273.14886pt.
+) [5 <../figures/sunspectrum.png (PNG copy)>] [6 <../figures/laserspectrum.png 
+(PNG copy)> <../figures/odmr-cal-1.png (PNG copy)> <../figures/odmr-cal-2.png (
+PNG copy)>] [7 <../figures/odmr-cal-4.png (PNG copy)> <../figures/odmr-cal-3.pn
+g (PNG copy)> <../figures/fluorescence.png (PNG copy)>] [8 <../figures/odmr-1.p
 ng (PNG copy)>]
 \openout2 = `fp_summary.aux'.
 
- (fp_summary.tex) [8
+ (fp_summary.tex)
+[9
 
 
 ]
 \openout2 = `fp_appendix.aux'.
 
- (fp_appendix.tex) [9
+ (fp_appendix.tex) [10
 
 
 ] (diamonds.lof)
 \tf@lof=\write8
 \openout8 = `diamonds.lof'.
 
-
-[10
+ [11
 
 ] (diamonds.lot)
 \tf@lot=\write9
 \openout9 = `diamonds.lot'.
 
- [11]
+ [12]
 
 LaTeX Warning: Empty bibliography on input line 111.
 
@@ -3205,7 +3448,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `diamonds.out' has not changed.
-(rerunfilecheck)             Checksum: 020A45FF021A3F18604224DBC46EFD72;1001.
+(rerunfilecheck)             Checksum: F5BBD7C886AEB1C1E31A7276D6FBDE52;1317.
 
 
 LaTeX Warning: There were undefined references.
@@ -3221,26 +3464,31 @@ Package logreq Info: Writing requests to 'diamonds.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 39399 strings out of 493305
- 752343 string characters out of 3129803
- 1145967 words of memory out of 3000000
- 42326 multiletter control sequences out of 15000+200000
- 600950 words of font info for 83 fonts, out of 3000000 for 9000
+ 39360 strings out of 493305
+ 752211 string characters out of 3129803
+ 1147138 words of memory out of 3000000
+ 42271 multiletter control sequences out of 15000+200000
+ 606935 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,65p,915b,1773s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
+ 55i,11n,65p,915b,1777s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
+c}{C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
 y.enc}{C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
 athit.enc}{C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-rm.enc}{C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-ec.enc}<C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-lm/lmbx12.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmmi12.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/lm/lmr12.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr17.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmsy10.pfb>
-Output written on diamonds.pdf (15 pages, 313310 bytes).
+lm-rm.enc}<C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+lm/lmbx10.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmbx12.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmmi12.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmmi8.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/lm/lmr10.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/lm/lmr12.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/lm/lmr17.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/cemh_/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/cemh_/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on diamonds.pdf (16 pages, 573437 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 269 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
