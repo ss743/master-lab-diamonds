@@ -91,6 +91,29 @@ fgausfit <- function(avg,bereich,sig0=0,N0=0) {
   return(summary(fit)$parameters)
 } 
 
+dualfgausfit <- function(avg,bereich,sig0=0,N0=0) {
+  
+  thegaussian <- ch1 ~ C + N/(sqrt(2*pi)*sig)*exp(-(f-mu)^2/(2*sig^2))+N2/(sqrt(2*pi)*sig2)*exp(-(f-mu2)^2/(2*sig2^2))
+  
+  daten=subset(avg,f>=bereich[1] & f<= bereich[2])
+  
+  ymin=min(daten$ch1)
+  if(N0==0){
+    ymax=max(daten$ch1)
+    N0=ymin-ymax
+  }
+  mu0 =daten$f[which.min(daten$ch1)]
+  if(sig0==0)
+  {
+    #sig0=(daten$x[bereich[2]]-daten$x[bereich[1]])/3
+    sig0=(bereich[2]-bereich[1])/12
+  }
+  
+  fit = nls(thegaussian,daten,start=list(C=ymax,N=ymin-ymax,N2=ymin-ymax,mu=mu0-0.01,mu2=mu0+0.01,sig=sig0, sig2=sig0))
+  
+  return(summary(fit)$parameters)
+} 
+
 
 plotgausline <- function(params,height=1,zero=0) {
   line=data.frame(ch1=c(zero,zero+height),f=c(params["mu","Estimate"],params["mu","Estimate"]))
@@ -103,6 +126,26 @@ plotgaus <- function(fitdata,bereich){ #--- Plotten der gefitteten Gaussfunktion
   C<-fitdata["C","Estimate"]
   mu<-fitdata["mu","Estimate"]
   sig<-fitdata["sig","Estimate"]
+  
+  stat_function (fun=function(x){C + N/(sqrt(2*pi)*sig)*exp(-(x-mu)^2/(2*sig^2))},xlim=c(bereich[1],bereich[2]),colour="blue")
+  
+}
+
+plotdualgausline <- function(params,height=1,zero=0) {
+  line=data.frame(ch1=c(zero,zero+height),f=c(params["mu","Estimate"],params["mu","Estimate"]))
+  geom_line(data=line,colour="red",linetype=2)
+  line2=data.frame(ch1=c(zero,zero+height),f=c(params["mu2","Estimate"],params["mu2","Estimate"]))
+  geom_line(data=line2,colour="red",linetype=2)
+}
+plotdualgaus <- function(fitdata,bereich){ #--- Plotten der gefitteten Gaussfunktion in vorhandenen Graph
+  
+  N<-fitdata["N","Estimate"]
+  N2<-fitdata["N2","Estimate"]
+  C<-fitdata["C","Estimate"]
+  mu<-fitdata["mu","Estimate"]
+  mu2<-fitdata["mu2","Estimate"]
+  sig<-fitdata["sig","Estimate"]
+  sig2<-fitdata["sig2","Estimate"]
   
   stat_function (fun=function(x){C + N/(sqrt(2*pi)*sig)*exp(-(x-mu)^2/(2*sig^2))},xlim=c(bereich[1],bereich[2]),colour="blue")
   
