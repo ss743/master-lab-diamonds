@@ -1,6 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {english}
+\babel@toc {english}{}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {section}{\numberline {2}Theoretical Background}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Colour Centres}{2}{subsection.2.1}
@@ -15,6 +14,5 @@
 \contentsline {subsection}{\numberline {4.2}Size of the Diamonds}{4}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Fluorescence Spectrum}{4}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}ODMR Measurements}{4}{subsection.4.4}
-\contentsline {section}{\numberline {5}Summary and Discussion}{5}{section.5}
-\contentsline {section}{\numberline {6}Appendix}{6}{section.6}
-\contentsline {section}{References}{9}{section*.5}
+\contentsline {section}{\numberline {5}Summary and Discussion}{8}{section.5}
+\contentsline {section}{\numberline {6}Appendix}{9}{section.6}

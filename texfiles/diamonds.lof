@@ -1,3 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {english}
+\babel@toc {english}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Measurement of the laser power\relax }}{4}{figure.caption.3}
+\contentsline {figure}{\numberline {2}{\ignorespaces Spectrum of the sun with identified Fraunhofer lines for calibration of the optical spectrometer\relax }}{5}{figure.caption.4}
+\contentsline {figure}{\numberline {3}{\ignorespaces Spectrum of the laser width identified peaks at the wavelengths $\lambda =(517.3\pm 0.2)\tmspace +\thinmuskip {.1667em}\mathrm {nm}$ and $\lambda =(1033.7\pm 0.4)\tmspace +\thinmuskip {.1667em}\mathrm {nm}$\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {4}{\ignorespaces Fluorescence spectrum of the diamond with the zero phonon line (red line) at $\lambda =(644.9\pm 1.8)\tmspace +\thinmuskip {.1667em}\mathrm {nm}$\relax }}{7}{figure.caption.7}
