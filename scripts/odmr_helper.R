@@ -26,7 +26,7 @@ average_csv <- function(filename){
 
 change_units <- function(avg){
   time=avg$t;
-  freq=avg$t*1.003+2.708;
+  freq=avg$t*1.003+2.728;
   err=sqrt(0.003^2*time^2+0.011^2)
   spectrum=data.frame(f=freq,sf=err,ch1=avg$ch1,ch2=avg$ch2)
   return(spectrum);
@@ -116,6 +116,10 @@ dualfgausfit <- function(avg,bereich,sig0=0,N0=0) {
 
 
 plotgausline <- function(params,height=1,zero=0) {
+  line=data.frame(ch1=c(zero,zero+height),t=c(params["mu","Estimate"],params["mu","Estimate"]))
+  geom_line(data=line,colour="red",linetype=2)
+}
+fplotgausline <- function(params,height=1,zero=0) {
   line=data.frame(ch1=c(zero,zero+height),f=c(params["mu","Estimate"],params["mu","Estimate"]))
   geom_line(data=line,colour="red",linetype=2)
 }
