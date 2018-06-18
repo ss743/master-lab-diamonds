@@ -1,6 +1,41 @@
 % !TeX spellcheck = en_GB
 \section{Experimental Set-up and Procedure}
 \subsection{Set-Up}
+The experiment was done with a pre mounted setup as shown in the fig \ref{fig:setup1} with tree main components: Laser source and optical components, electronic and microwave equipement and an Apparatus for NV centre spectroscopy. A reliable radio-frequency system must be deployed, ensuring the microwave-based excitation of the diamonds magnetic resonance. Its important that the osciloscope and the spectrum analizer need to be synchronized to achieve simultaneous optical analysis while sweeping the desired microwaves. a list of the apparatus used in this experiment and also pictures of the set up running can be find in the apendix.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{../figures/setup1}
+	\caption[setup]{Schematic not on scales of the experiment. The laser is coupled into an optical ﬁber and operated via software of Thorlabs. \textbf{Optics}: The laser is focussed on a microstrip (MS) with a condensor lens (Fc). Using a 4-f-system with the lenses f1 and f2 (having focal lengths of 10 and 80 mm, respectively) and a Beam splitting set;with split intensities 10:90 (beampath:APD), and 50:50 (CCD:OS), the diamonds are imaged on an avalanche photo diode (APD), the CCD-camera (CCD) and the optical spectrometer (OS). Low pass Color ﬁlters are addes to avoid the pass of the laser ligth.
+	\textbf{Electronics}: The output of a spectrum analyzer is ampliﬁed (ampliﬁer A1, gain = 48) and coupled into the microstrip, which is grounded through an impedance of 50Ω.
+	The spectrum analyzer’s and the oscilloscope are triggered with the same signal, recording the signal of an power detector (ACDC), as well as the ampliﬁed signal (audio ampliﬁer A2) of the APD.  Adapted from \cite{anleitung}.}
+	\label{fig:setup1}
+\end{figure}
+ \subsubsection{Optical setup}
+The optical compones basically conform a confocal microscope eith two lenses (f$1=10mm and f2=80mm$) set up at their focal points, forming a 4f-system. A laser of $\lambda=519nm$ was user as illumination source, In the set up an optic fiber had to be couple to the laser due lack of spacefocused with a condensor lend (fc).
+In the object plane is the Microstrip \textbf{(Ms)}, in this objective we put a small portion of micro-diamonds powder with a small spire with out touchinf the strip. The Ms is fundamental to apply the ODMR measurements, a magnet holder is available, wich counts with a conector tp the spectra analizer \textbf{(DSa)} that supplies the microwaves.
+
+An adjustable mirrors set provides ahelps to align the laser beam into the strip, givin 3 dimentions to move. For distribute the signal into the Avalanche PhotoDiode \textbf{(APD)} and the ccd camera Two dicroic mirros ( acting as beam spliater) was used, one with 90:10 porcent and 50:50 for the APD and the ccd andd optical spectrometer respectivelly. The advantage of using a APD is that it providing fast response in time and high sensitivity. ToensurethatmostoftheopticalpowerreachestheAPD, and that one is still able to perform spectroscopy and imaging at the same time. Both the CCD and spectrometer are controlled using a computer. To ensuavoid any scattered of ligth and improve a low signal-background ratio  low pass color filters \textbf{(CF)} was used after each beam spliter to avoid the laser ligth to be meassure in the data.
+
+\subsubsection{Electronics}
+
+Additionally to the optics, some electronics have to be addet to perform the ODMR.First an Osciloscope is used to read the APD signal after being amplified by an audio amplifies.  As mentioned, a supply of microwaves is couple to the MicroStrip.
+Because the transition and reflection in the Ms is unknown an power coppler have to be add in the set up showe in the next section, so this trasmisson can be related directly.  To do so, a supply covering the frequency of center 2.8GHZ is used, which can be provided by the tracking generator of a spectrum analyzer (SA), it was set at odBm and conected to a 45dBm amplified before it reach the Ms as shown in \ref{fig:setup1}.
+ A signal generator in square mode trigger the SA and the Osciloscope in order both meassuments coincides so the intensity of the flluorecence detected by the APD can be track imidiatly the microwaves was imput.
+ 
+ Our tracking generator can sweep through the aforementioned range within 200ms, and  the signal generator was set to ......  Another way to increase the obtained signal is done on the acquisition site: an audio ampliﬁer (A2) also increases the signal provided by the APD, which has previously been ﬁltered using a low pass ﬁlter (cut-oﬀ frequency fc “100Hz). 
+ 
+ The oscilloscope was used with a build-in phyton software already install in the computer ans sligthly modified just in the number of data adquire to 250loops per meassument......
+ 
+ \subsubsection{Magnets}
+ One the SA and the APD was trigered and the signal was well adquired, one and two magnets was add next to the Microstrip with the pourposse of allign the Diamond lattice with the magnetic field  and do some meassuments respecting this ne parameter.
+two magnests was used, displayed in a base overpose to the Microstrid and centered to the diamonds powder. The distance between the magnets and the center was$36mm \pm 0.5$ and several variations was used, includin a perpenticular meassure in the Z axis and changing of  polarity.  In the next figure a sketchs of the base used is shown as the axis of the lab reference.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{../figures/magnets}
+	\caption[mag]{top and side view of the magnet base over the microstrip, The magnets was put in the strips of the base alwasys at the same distance, the reference of the axis are respective the laboratory frame.}
+	\label{fig:magnets}
+\end{figure}
+
 
 \subsection{Calibration}
 \subsubsection{convertion factor camera}
