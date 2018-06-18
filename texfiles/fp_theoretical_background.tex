@@ -24,17 +24,43 @@ An aditional proces from the exited stade is a nonradiative emission into the me
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\textwidth]{../figures/nv-centre.png}
-	\caption{Electronic structure of (a) NV$^-$ and (b) NV$^0$ centres \cite{doherty}}
+	\caption{Electronic structure of (a) $NV^-$ and (b) NV$^0$ centres \cite{doherty}}
 	\label{fig:nvcentres}
 \end{figure}
 
 
+The wide properties on $NV^{-}$ centres have made this research gain popularity in wide range of application as temperature sensing \cite{neumann_high-precision_2013}, pressure sensing \cite{doherty_electronic_2014} and even biological applications \cite{mcguinness_quantum_2011}. The NV- centre presents a well detectable zero phonon (ZPL), in literature at 637 nm  and has a lifetime of 10-30 ns as shown in the next figure \ref{jeske_stimulated_2017}, typically it is excited with $\lambda_{exc}=532nm$, while it can be excited in a broad band below. In simple word the ZPL is presented as it name says, when an emission or absorption between two states occurs with out extra phonon in the process. When a round sated and an exited sated counts with several process available the transition between the two levels can be with the exact energy between the two or also with $\pm phonons$ to the other possible degraded states of the lattice, in this cases one or more phonon are release, making the colour centres to a have a broad spectra of emission \ref{sild_zero-phonon_1988}.
+On the other hand  the fluorescence ranges also over a broad range and only a few percent of the photons are emitted into the ZPL; the major part emits into vibrational side-bands in the range of 630 to 800 nm \cite{doherty} and  Non-radiative decay to $\left\|s\right\rangle$ can also occur, which, in turn, has a lifetime of about 250 ns \cite{schirhagl_nitrogen-vacancy_2014}
+
 %\subsection{Experimental Methods}
 \subsection{Optically Detected Magnetic Resonance}
 
+Optical detected magneto resonance or ODMR, is  a  double  resonance  technique  which  combines  optical
+measurements, in our case the fluorescence of the $nv^{-}$, with  electron  spin  resonance  spectroscopy.  After  the  first
+triplet-state ODMR experiment in zero magnetic field reported  in 1968 \cite{schmidt_optical_1967}, the  number  of double resonance studies on excited triplet states grew rapidly.  The ground state of a typical organic molecule is a
+singlet state, and absorption of light leads to excited singlet states. The unpairing of the electron spins is possible only if
+there is some degree of spin-orbit coupling, If this happens, then the molecule undergoes intersystem crossing (ISC)  and  becomes  a  triplet  state. After an excited molecule crosses into a triplet state, it may remain there a long time because the de-excitation is
+spin-forbidden \cite{carbonera_optically_2009}.
+As we refer in the last section our $NV^{-}$ in the ground state $\left| g \right\rangle $ at $m=0$ using a wipe of microwaves with a centre of frequency exactly at energy gap to $\left\| g,m=\pm1\right\rangle $, this leads to two important consequence. First that our system is now a triplet state and so the emission at m=0 are forbidden now from the excite state $\left\| e,m=0\right\rangle $ and second that this allow to a major percentage of the non radiative emission to be present from $\left\| s\right\rangle $ to the ground state. This detuning in the microwave can be calculated on base the Hamiltonians of each levels and is equal to \cite{schirhagl_nitrogen-vacancy_2014}:\\
+\begin{equation}
+\omega_{mw}=(E_{\left|g,m=0\right\rangle}-E_{\left|g,m=\pm 1\right\rangle}/ \hslash = 2π X 2870MHz 
+\end{equation}
+Where $\omega_{ws}$ is the frequency centres of the microwave and E is the energy of each level.
 
-
-
-
-
+The spin properties of NV defects can also be used for magnetic field measurements \cite{sage_optical_2013}. In the presence of a static magnetic field, the degeneracy of the NV defect states is lifted by the Zeeman effect.  It leads to the appearance of two resonance lines in the electron spin resonance spectrum. The frequency of the splitting resonances is then directly related to the amplitude of the applied magnetic field B NV along the NV defect axis  \cite{lesik_engineering_2015}. The spatial resolution of a single NV scanning probe magnetometer is fundamentally limited by the electron spin wave function, which is in the Angstrom range. NV center application in high sensitivity magnetometer a single NV defect is integrated onto the tip of an atomic force microscope and used as an atomic-sized magnetic ﬁeld sensor under ambient conditions. \cite{zhou_scanning_2017}.
+Using the magnetic field $B$ the the magnetic moment $\mu$ will look as:\\
+\begin{align}
+\mu&=\dfrac{\mu_{b}}{\hslash}*g_{s}*s \\
+\mu&=\gamma*s
+\end{align}
+Where $\mu_{b}$ is the Bohr´s magnetron and $g_{s}\simeq 2$, $s$ and $\gamma$ are the g-factor, spin and the gyromagnetic ratio for the free electron respectively. \cite{meschede_gerthsen_2015} At $B\neq 0$ and $\gamma=2\pi*2.8GHZ$ the energy gaps between the $m_{s}=1$ and $-1$ looks like:
+\begin{align}
+	\Delta E&=(E_{0}-\hslash \gamma B_{0}*cos\alpha)-(E_{0}-\hslash \gamma \\	
+	\Delta E&=2*\hslash \gamma B_{0}*cos\alpha
+\end{align}
+Where $\alpha $ is the angle between the magnetic ﬁeld and magnetic moment. The original resonance is split symmetrically into two magnetic ones, which are detuned around the centre frequency.
+\begin{equation}
+	\omega=\gamma B_{0}*cos\alpha
+\end{equation}
+This mean that our frequency centre is not only sensitive to the amplitude of the magnetic ﬁeld, but also to the orientation between the crystal and the external ﬁeld. Furthermore, the isolation of the NV center intrinsic inﬂuences includes stability of this measurement, providing a sensitive tool to detect magnetic ﬁelds \cite{meschede_gerthsen_2015}.
 
