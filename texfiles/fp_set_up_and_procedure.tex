@@ -1,34 +1,40 @@
 % !TeX spellcheck = en_GB
 \section{Experimental Set-up and Procedure}
 \subsection{Set-Up}
-The experiment was done with a pre mounted setup as shown in the fig \ref{fig:setup1} with tree main components: Laser source and optical components, electronic and microwave equipement and an Apparatus for NV centre spectroscopy. A reliable radio-frequency system must be deployed, ensuring the microwave-based excitation of the diamonds magnetic resonance. Its important that the osciloscope and the spectrum analizer need to be synchronized to achieve simultaneous optical analysis while sweeping the desired microwaves. a list of the apparatus used in this experiment and also pictures of the set up running can be find in the apendix.
+
+The experiment was done with a pre-mounted setup as shown in the fig \ref{fig:setup1} with tree main components: Laser source and optical components, electronic and microwave equipment and an Apparatus for NV centre spectroscopy. A reliable radio-frequency system must be deployed, ensuring the microwave-based excitation of the diamonds magnetic resonance. It was important that the oscilloscope and the spectrum analyser to be synchronized to achieve simultaneous optical analysis while sweeping the desired microwaves. A list of the apparatus used in this experiment and also pictures of the set up running can be find in the appendix.
+
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{../figures/setup1}
-	\caption[setup]{Schematic not on scales of the experiment. The laser is coupled into an optical ﬁber and operated via software of Thorlabs. \textbf{Optics}: The laser is focussed on a microstrip (MS) with a condensor lens (Fc). Using a 4-f-system with the lenses f1 and f2 (having focal lengths of 10 and 80 mm, respectively) and a Beam splitting set;with split intensities 10:90 (beampath:APD), and 50:50 (CCD:OS), the diamonds are imaged on an avalanche photo diode (APD), the CCD-camera (CCD) and the optical spectrometer (OS). Low pass Color ﬁlters are addes to avoid the pass of the laser ligth.
-	\textbf{Electronics}: The output of a spectrum analyzer is ampliﬁed (ampliﬁer A1, gain = 48) and coupled into the microstrip, which is grounded through an impedance of 50Ω.
-	The spectrum analyzer’s and the oscilloscope are triggered with the same signal, recording the signal of an power detector (ACDC), as well as the ampliﬁed signal (audio ampliﬁer A2) of the APD.  Adapted from \cite{anleitung}.}
+	\caption[setup]{Schematic not on scales of the experiment. The laser is coupled into an optical ﬁber and operated via software of Thorlabs. \textbf{Optics}: The laser is focussed on a microstrip (MS) with a condenser lens (Fc). Using a 4-f-system with the lenses f1 and f2 (having focal lengths of 10 and 80 mm, respectively) and a Beam splitting set;with split intensities 10:90 (beampath:APD), and 50:50 (CCD:OS), the diamonds are imaged on an avalanche photo diode (APD), the CCD-camera (CCD) and the optical spectrometer (OS). Low pass Colour ﬁlter are added to avoid the pass of the laser.
+	\textbf{Electronics}: The output of a spectrum analyser is ampliﬁed (ampliﬁer A1, gain = 48) and coupled into the microstrip, which is grounded through an impedance of $50\Omega$.
+	The spectrum analyzer and the oscilloscope are triggered with the same signal, recording the data of athe power detector, as well as the amplitude signal (audio ampliﬁer A2) of the APD.  Adapted from \cite{anleitung}.}
 	\label{fig:setup1}
 \end{figure}
- \subsubsection{Optical setup}
-The optical compones basically conform a confocal microscope eith two lenses (f$1=10mm and f2=80mm$) set up at their focal points, forming a 4f-system. A laser of $\lambda=519nm$ was user as illumination source, In the set up an optic fiber had to be couple to the laser due lack of spacefocused with a condensor lend (fc).
-In the object plane is the Microstrip \textbf{(Ms)}, in this objective we put a small portion of micro-diamonds powder with a small spire with out touchinf the strip. The Ms is fundamental to apply the ODMR measurements, a magnet holder is available, wich counts with a conector tp the spectra analizer \textbf{(DSa)} that supplies the microwaves.
 
-An adjustable mirrors set provides ahelps to align the laser beam into the strip, givin 3 dimentions to move. For distribute the signal into the Avalanche PhotoDiode \textbf{(APD)} and the ccd camera Two dicroic mirros ( acting as beam spliater) was used, one with 90:10 porcent and 50:50 for the APD and the ccd andd optical spectrometer respectivelly. The advantage of using a APD is that it providing fast response in time and high sensitivity. ToensurethatmostoftheopticalpowerreachestheAPD, and that one is still able to perform spectroscopy and imaging at the same time. Both the CCD and spectrometer are controlled using a computer. To ensuavoid any scattered of ligth and improve a low signal-background ratio  low pass color filters \textbf{(CF)} was used after each beam spliter to avoid the laser ligth to be meassure in the data.
+ \subsubsection{Optical set-up}
+ 
+The optical components basically makes a confocal microscope with two lenses ($f1=10\mathrm{mm}$ and $f2=80\mathrm{mm}$) set up at their focal points, forming a 4f-system. A laser of $\lambda=519nm$ was used as illumination source. In the set up an optic fibre had to be couple due lack of space focused with a condenser lend (fc) to the Diamond ins the Microstrip.
+In the object plane is the Microstrip \textbf{(Ms)}, in this objective we put a small portion of micro-diamonds powder with a small spire with out touching the strip. The Ms is fundamental to apply the ODMR measurements, a magnet holder is available, which counts with a connector to the spectra Analizer \textbf{(SA)} that supplies the microwaves.
+
+An adjustable mirrors set provides helps to align the laser beam into the strip, giving 3 dimensions to move. For distribute the signal into the Avalanche PhotoDiode \textbf{(APD)} and the ccd camera, Two dicroic mirrors ( acting as beam splitter) was used, one with 90:10 percent and 50:50). The advantage of using a APD is that it providing fast response in time and high sensitivity. Both the CCD and spectrometer are controlled using a computer. To avoid any scattered of light and improve a low signal-background ratio  low pass colour filters \textbf{(CF)} was used after each beam splitter to avoid the laser light to be measure in the data.
 
 \subsubsection{Electronics}
 
-Additionally to the optics, some electronics have to be addet to perform the ODMR.First an Osciloscope is used to read the APD signal after being amplified by an audio amplifies.  As mentioned, a supply of microwaves is couple to the MicroStrip.
-Because the transition and reflection in the Ms is unknown an power coppler have to be add in the set up showe in the next section, so this trasmisson can be related directly.  To do so, a supply covering the frequency of center 2.8GHZ is used, which can be provided by the tracking generator of a spectrum analyzer (SA), it was set at odBm and conected to a 45dBm amplified before it reach the Ms as shown in \ref{fig:setup1}.
- A signal generator in square mode trigger the SA and the Osciloscope in order both meassuments coincides so the intensity of the flluorecence detected by the APD can be track imidiatly the microwaves was imput.
+Additionally to the optics, some electronics have to be used to perform the ODMR. First an Oscilloscope is used to read the APD signal after being amplified by an audio amplifies.  As mentioned, a supply of microwaves is couple to the MicroStrip.
+Because the transition and reflection in the Ms is unknown an power coupler have was added in the set up show in the next section, so this transmission can be related directly.  To do so, a supply covering the frequency of centre at 2.8GHZ is used, which can be provided by the tracking generator. the SA  was set at 0 dBm and connected to a 45dBm amplified before it reach the Ms as shown in \ref{fig:setup1}.
+
+ A signal generator in square mode trigger the SA and the Oscilloscope in order both measurements coincides so the intensity of the fluorescence detected by the APD can be track immediately the microwaves was imput.
  
- Our tracking generator can sweep through the aforementioned range within 200ms, and  the signal generator was set to ......  Another way to increase the obtained signal is done on the acquisition site: an audio ampliﬁer (A2) also increases the signal provided by the APD, which has previously been ﬁltered using a low pass ﬁlter (cut-oﬀ frequency fc “100Hz). 
+ Our tracking generator can sweep through the aforementioned range within 200ms, and  the signal generator was set to ......  Another way to increase the obtained signal is done on the acquisition site: an audio ampliﬁer (A2) also increases the signal provided by the APD, which has previously been ﬁltered using a low pass ﬁlter (cut-oﬀ frequency fc 100Hz). 
  
- The oscilloscope was used with a build-in phyton software already install in the computer ans sligthly modified just in the number of data adquire to 250loops per meassument......
+ The oscilloscope was used with a build-in phyton software already install in the computer ans slightly modified just in the number of data acquire to 250 loops per measurement.
  
  \subsubsection{Magnets}
- One the SA and the APD was trigered and the signal was well adquired, one and two magnets was add next to the Microstrip with the pourposse of allign the Diamond lattice with the magnetic field  and do some meassuments respecting this ne parameter.
-two magnests was used, displayed in a base overpose to the Microstrid and centered to the diamonds powder. The distance between the magnets and the center was$36mm \pm 0.5$ and several variations was used, includin a perpenticular meassure in the Z axis and changing of  polarity.  In the next figure a sketchs of the base used is shown as the axis of the lab reference.
+ 
+ Onces the SA and the APD was trigered and the signal was well acquired, one and two magnets was add next to the Microstrip with the purpose of align the Diamond lattice with the magnetic field  and do some measurement respecting this new parameter.
+two magnets was used, displayed in a base overpose to the Microstridp and centred to the diamonds powder. The distance between the magnets and the centre was $36 \pm 0.5 \mathrm{mm}$ and several variations was used, including a perpendicular measure in the Z axis and changing of  polarity.  In the next figure a sketch of the base used is shown as the axis of the lab reference.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{../figures/magnets}
@@ -38,20 +44,32 @@ two magnests was used, displayed in a base overpose to the Microstrid and center
 
 
 \subsection{Calibration}
-\subsubsection{convertion factor camera}
-The strip was meassure with a calibrator at $1.2\pm 0.1\,\mathrm{mm}$ and the camara used was a Thorlabs CCD camera with dimentions of 1280x1024 pixels, each pixel with $5.2\times5.2 \mathrm{\mu m}$ according to the manufacturer.
+
+\subsubsection{conversion factor camera}
+
+The length of the strip was measured with a calliper at $1.2\pm 0.1\mathrm{mm}$ and the camera used was a Thorlabs CCD camera had dimensions of 1280x1024 pixels, each pixel with $5.2\times5.2 \mathrm{\mu m}$ according to the manufacturer.
 In order to know the actual resolution of our microscope a calibration was done based on the magnification and calibration factor of the set up.
-Theoritically our $C_{f}$ can be calculated as:
+Theoretically our $C_{f}$ can be calculated from the lenses $f_{1}$ and $f_{2}$ that gives a Magnification of 8. The calibration factor is given by:
 \\
 
 \begin{equation}
 C_{f}=\dfrac{1 px \cdot M}{d_{p}} = 1552 px/mm
 \end{equation}\\
-Where $M$ is the magnification and $d_{p}$ is the pixel sizes. And with a Magnification icual to the lenses used for the confocal setup is equal to the magnification $M=f2/f1=8$.
-In this case the tool of Thorlab’s software was used to determine and measure the width of the microstrip. Using the equation above and the respective measumente we denote that  $C_{f} =1346 \,\mathrm{px/mm}$, with a magnification factor close to $M=7X$.
+
+Where $M$ is the magnification and $d_{p}$ is the pixel sizes.
+
+For getting an experimental magnification we measure the distance in pixel of or strip using the the tool of Thorlab’s software and overlapping two pictures as shown in fig \ref{fig:distance-sslip}. The strip had in total 1442 pixels of cross section  with leads to  a magnification factor close to $M=7$.
+Using the equation above and the respective measurement we denote that the  $C_{f} =1346\pm224 \,\mathrm{px/mm}$,
+ \begin{figure}
+ 	\centering
+ 	\includegraphics[width=0.7\linewidth]{"../figures/distance sslip"}
+ 	\caption{Overlay of the two pictures that shows the wide of the strip using a bright diamond in the centre as a reference point. The measurements was done insitu but the  images overlay was done with FIJI software in a post analysis.}
+ 	\label{fig:distance-sslip}
+ \end{figure}
+ 
 
 \subsubsection{Laser Power}
-To set the power of the laser to a reasonable value a calibration curve was recorded which shows the actual laser power at the position of the microstrip plotted over the output power set in the GUI. This curve is shown in figure \ref{fig:power}.\\
+To set the power of the laser to a reasonable value a calibration curve was recorded which shows the actual laser power at the position of the Ms plotted over the output power set in the GUI. This curve is shown in figure \ref{fig:power}.\\
 
 Using this graph the output power was set to $P_\text{out}=20\,\mathrm{mW}$ which corresponds to an actual laser power of $P_\text{act}=(27.4\pm1.4)\,\mathrm{mW}$.
 \begin{figure}[hb]
@@ -64,26 +82,27 @@ Using this graph the output power was set to $P_\text{out}=20\,\mathrm{mW}$ whic
 
 \subsubsection{Electronic components}
 
-In order Performe our ODMR, is crucial to determine the amount of microwave power deployed into the microstrip and the diamonds. we can not have an absolut power that is been pluging into the set up. The microstrip by defoult have some transmition $T_{Ms}$ and reflecctions $R_{Ms}$ that are unkown.
-For this a power coupler was added to the setup and four meassument with diferents arranges where performed as shown in the fig...
-First, the power coupler was conected to the DSA in out- out possition to knoe the transmitio of it, $T_{cpl}$. on the other hand the secon setup is an Out conection to the DSA and help to determine the reflection of the CPL $R_{cpl}$. for the thirt and fouth display, the mmicrostrip was added, in the Out-Out possition ( CPL-DSA), messurion the Reflection $R_{cpl-Ms}$ and transmition $T_{cpl-Ms}$ of the hole set.
+In order Perform our ODMR, is crucial to determine the amount of microwave power deployed into the Microstrip and the diamonds. We can not known an absolute power that is been plugging in. The micro strip by default have some transition $T_{Ms}$ and reflections $R_{Ms}$ that we need to measure experimentally.
+For this, a power coupler was added to the set-up and four measurement with different arranges where performed as shown in the fig. \ref{fig:apd}.
+First, the power coupler (PC) was connected to the DSA in out- out position to know the it´s transmission, $T_{cpl}$. On the other hand the second set-up, an In- Out connection to the SA to determine the reflection of the CPL $R_{cpl}$. For the third and fourth display, the Ms was added, in the Out-Out position (CPL-DSA), measuring the Reflection $R_{cpl-Ms}$ and transmission $T_{cpl-Ms}$ of the hole set.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{../figures/APD}
-	\caption[diferent arranges of the CPL and MicroStrip conected to the DSA]{(A) CPL conected to the DSA in Out-Out direction messuring $T_{cpl}$, (b) Cpl conected in Out-In secuence and meassuring $R_{cpl}$, (c) CPl and microstrip conected in Out-Out mode and measuring the $R_{cpl-Ms}$ (d) CPL and Microstrip conected in Out-Out moded and meassuring $T_{cpl-Ms}$}
+	\caption[Diferent arranges of the CPL and MicroStrip conected to the DSA]{(A) Power coupler connected to the SA in Out-Out direction measuring $T_{cpl}$, (b) Cpl connected in Out-In sequence and measuring $R_{cpl}$, (c) CPl and micro strip connected in Out-Out mode and measuring the $R_{cpl-Ms}$ (d) CPL and Microstrip connected in Out-Out mode and measuring $T_{cpl-Ms}$}
 	\label{fig:apd}
 \end{figure}
 
-The DSA was set at 0 Dbm and a sweep centered at 2.8GHz frequancy. A 50$\Omega$ resistance was used for the losses ends as shown. The next figure display the four signals of the diferent arranges.
+The SA was set at 0 Dbm with a sweep centred at 2.8GHz frequency. A 50$\Omega$ resistance was used for the losses ends as shown. The next figure display the four signals of the different arranges.
+
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{../figures/microstrip}
-	\caption{Atenuattion od the power at 0dBm from top to bottom: $T_{CPL}$,$T_{Cpl-Ms}$, $R_{CPL}$ and $R_{Cpl-MS}$}
+	\caption{Attenuation od the power at 0dBm from top to bottom: $T_{CPL}$,$T_{Cpl-Ms}$, $R_{CPL}$ and $R_{Cpl-MS}$}
 	\label{fig:microstrip}
 	\end{figure}
 
-The total transmition and reflection ws simply calculated by a sustraction of the Ms trasmition in the diferent processes as next.
+The total transmission and reflection was simply calculated by a subtraction of the Ms transmission in the different processes as next.
 
 \begin{align}
 T_{Ms}&=T_{cpl-Ms}-T_{cpl}\\
@@ -91,12 +110,12 @@ R_{MS}&=R_{cpl-Ms}+T_{cpl}-R_{cpl}
 \end{align}
 
 
-The attenuation in this cases for the transmission remains close to cero, specially in the center of the sweep while the reflection as shown reduces drasticly. This gives  us the facts that the power transmitted is close to the 0dBm used in the DSA and few of it is been reflected.
+The attenuation in this cases for the transmission remains close to cero, specially in the centre of the sweep while the reflection as shown reduces drastic. This gives us the idea that the power transmitted is close to the 0dBm used in the SA and few of it is been reflected.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{../figures/microstrip-trasm-eflect}
-	\caption[trans-refl]{Ateniation of the resultant transmition (top) and reflectrion (bottom) at the Micristrip, at 0dBm in a 2.8GHZ frequency center.}
+	\caption[trans-refl]{Attenuation of the resultant transmission (top) and reflection (bottom) at the Microstrip, at 0dBm in a 2.8GHZ frequency centre.}
 	\label{fig:microstrip-trasm-eflect}
 \end{figure}
 
