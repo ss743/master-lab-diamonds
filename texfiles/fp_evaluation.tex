@@ -1,12 +1,14 @@
 % !TeX spellcheck = en_GB
 \section{Evaluation}
 \subsection{Size of the Diamond}
+\label{sec:size}
 
-One we have find our calibration factor for our microscope defining the size of  diamond just require the pixel number in it. For counting the pixel FIJI software was used in two different ways (see figure \ref{fig:diasize4}). The first was overlay a circle that matched the area of the bright diamond and the second was measure the diameter of it with a cross section line. In both cases the size in pixels was really similar, $D=34\pm1 pixel$ as shown in the next figure. Multiplied by our preview calibration factor lead to $D_{diamond}=24\pm4 \mu m$
-\begin{figure}
+As described in section \ref{sec:measurements} the size of the diamond was measured using an image acquired with the CCD camera. It was determined two times with different techniques as displayed in figure \ref{fig:diasize4}. First a circle was fitted to the bright area on the picture representing the diamond and the diameter of this circle was measured to be $d=34\pm1\,\mathrm{px}$. Also the second measurement confirmed this result by drawing directly a line from end to end of the diamond and measuring the length of this line to be $(d=34\pm1)\,\mathrm{px}$. With the conversion factor calculated in section \ref{sec:odmr-cal} the diameter of the diamond results to be $d=(24\pm4)\,\mu\mathrm{m}$.
+
+\begin{figure}[hb]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../figures/Diasize4}
-	\caption[sizediam]{Picture of the Software use to the pixel measurement, in the bottom left the measurement with the overlay of circles and in the right the measurement with a direct line.}
+	\caption[Measuring of the size of the diamond]{Picture of the Software used to do the pixel measurement, in the bottom left the measurement with the overlay of circles and in the right the measurement with a direct line.}
 	\label{fig:diasize4}
 \end{figure}
 
@@ -28,7 +30,7 @@ The ODMR Measurements were conducted without a magnetic field and afterwards wit
 
 In figure \ref{fig:odmr-magnet} the ODMR measurements with enabled magnetic fields are displayed. In figure \ref{fig:odmr-magnet-x} and \ref{fig:odmr-magnet-y} one can see one, respectively two resonance pairs while in \ref{fig:odmr-magnet-z} we can barely identify some peaks but cannot assign them to resonance pairs so we discarded this measurement.\\
 
-The peaks in figure \ref{fig:odmr-magnet-x} and \ref{fig:odmr-magnet-y} we can assign to resonance pairs but the centre frequency of this resonance pairs is not equal to the measured resonance frequency of the $B=0$-measurement shown in figure \ref{fig:odmr-no-B}. So to calculate the resonance frequencies and with this the magnetic fields we used the measured frequency. Possible reasons for the shifting of this energy are explained in section \ref{sec:summary}.
+The peaks in figure \ref{fig:odmr-magnet-x} and \ref{fig:odmr-magnet-y} we can assign to resonance pairs but the centre frequency of this resonance pairs is not equal to the measured resonance frequency of the $B=0$-measurement shown in figure \ref{fig:odmr-no-B}. So to calculate the resonance frequencies and with this the magnetic fields we used the measured frequency. Possible reasons for the shifting of this energy are discussed in section \ref{sec:summary}.
 
 \begin{figure}
 	\centering

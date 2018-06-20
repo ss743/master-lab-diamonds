@@ -27,6 +27,7 @@
 
 \usepackage[backend=biber,backref=false,style=numeric-comp, sorting=none,block=ragged,firstinits=true]{biblatex}
 
+
 \lstset{basicstyle=\scriptsize,breaklines=true}
 
 
@@ -65,12 +66,15 @@
 
 \newcommand{\del}[2][]{\frac{\partial #1}{\partial #2}}
 \newcommand{\code}[1]{\texttt{#1}}
-\bibliography{bib}
+
 \addbibresource{fp_refs.bib}
 
 %Titel,Inhalt----------------------------------------------------------------------------------------------------------
 
 \begin{document}
+	
+
+	
 	\pagenumbering{gobble} %verstecke Seitenzahl
 	\maketitle
 	\newpage
@@ -101,7 +105,7 @@
 	\include{fp_appendix}
 	\newpage
 	\listoffigures
-	\newpage
+	%\newpage
 	\listoftables
 	
 	%Literatur----------------------------------------------------------------------------------------------------------
