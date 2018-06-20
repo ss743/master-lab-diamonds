@@ -12,6 +12,7 @@ One we have find our calibration factor for our microscope defining the size of 
 
 
 \subsection{Fluorescence Spectrum}
+
 As indicated in section \ref{sec:nvcentres} the NV-centres exist in a NV$^-$ and a NV$^0$ state. While the ODMR-measurements can only be done on the NV$^-$ state we need to make sure that the diamond we found has NV$^-$ centres inside.\\
 
 Therefore the fluorescence spectrum of the diamond is recorded and the position of the ZPL is determined. In figure \ref{fig:fluorescence} we see the ZPL to be at the position $\lambda_\text{ZPL}=(645\pm3)\,\mathrm{nm}$ which corresponds to an energy of $E_\text{ZPL}=(1.922\pm0.009)\,\mathrm{eV}$. This corresponds roughly to the energy given in figure \ref{fig:nvcentres}. So we verified the existence of NV$^-$ centres in the found diamond.
@@ -22,6 +23,31 @@ Therefore the fluorescence spectrum of the diamond is recorded and the position 
 	\label{fig:fluorescence}
 \end{figure}
 
+\subsubsection{Fluorescence lifetime}
+
+The fluorescence of the diamond was measure through the APD and the oscilloscope. A fluorescence has a relaxation time or lifetime that goes theoretically \cite{lakowicz_principles_2007}.
+\begin{equation}
+	I(t)=I_{0}+e^{-t/\tau}
+\end{equation}
+Where the intensity I decay exponentially in time and $\tau$ is the life time of the fluorescence. In the next figure the Intensity was measure in time and a fit line was add in Mathematica with the NonLinerarFit algoritm to find the lifetime.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{"../figures/lifetime fluorecence"}
+	\caption[lifetime]{A curve fit to the intensity of the fluorescence. In blue points is the data taken from the oscilloscope and in red the fit done in Mathematica with $a+e^{-b+t}$ model}
+	\label{fig:lifetime-fluorecence}
+\end{figure}
+\\
+\left(
+\begin{array}{ccccc}
+	\text{} & \text{Estimate} & \text{Standard Error} & \text{t-Statistic} & \text{P-Value} \\
+	a & 1.13398 & 0.0105947 & 107.033 & \text{3.2578056785226166$\grave{ }$*${}^{\wedge}$-301} \\
+	b & -0.000165399 & 0.0119048 & -0.0140845 & \text{7.323080785918364$\grave{ }$*${}^{\wedge}$-233} \\
+	\label{tab:lt}
+\end{array}}
+\right)
+\\
+As we can see in the fig \ref{fig:lifetime-fluorecence} and the table \ref{tab:lt} gives the A and B value of the  the life time is given in milliseconds $ms$.
+According to this table the Fluorescence Lifetime of the NV- centres is  close to $165\ns$ that is a bit larger that in literature \cite{storteboom_lifetime_2015}  but still in the same order of magnitude, that gives us a good beginning to our results.
 \subsection{ODMR Measurements}
 
 The ODMR Measurements were conducted without a magnetic field and afterwards with three magnetic fields pointing into different directions. The measured ODMR spectrum without a magnetic field is shown in figure \ref{fig:odmr-no-B}. The resonance frequency in this spectrum is determined to be $f_\text{resonance}=(2.8699\pm0.0002)\,\mathrm{GHz}$ using the calibration done in section \ref{sec:odmr-cal}.\\
