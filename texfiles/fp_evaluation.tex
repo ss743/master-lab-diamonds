@@ -14,6 +14,13 @@ Therefore the fluorescence spectrum of the diamond is recorded and the position 
 \end{figure}
 
 \subsection{ODMR Measurements}
+
+The ODMR Measurements were conducted without a magnetic field and afterwards with three magnetic fields pointing into different directions. The measured ODMR spectrum without a magnetic field is shown in figure \ref{fig:odmr-no-B}. The resonance frequency in this spectrum is determined to be $f_\text{resonance}=(2.8699\pm0.0002)\,\mathrm{GHz}$ using the calibration done in section \ref{sec:odmr-cal}.\\
+
+In figure \ref{fig:odmr-magnet} the ODMR measurements with enabled magnetic fields are displayed. In figure \ref{fig:odmr-magnet-x} and \ref{fig:odmr-magnet-y} one can see one, respectively two resonance pairs while in \ref{fig:odmr-magnet-z} we can barely identify some peaks but cannot assign them to resonance pairs so we discarded this measurement.\\
+
+The peaks in figure \ref{fig:odmr-magnet-x} and \ref{fig:odmr-magnet-y} we can assign to resonance pairs but the centre frequency of this resonance pairs is not equal to the measured resonance frequency of the $B=0$-measurement shown in figure \ref{fig:odmr-no-B}. So to calculate the resonance frequencies and with this the magnetic fields we used the measured frequency. Possible reasons for the shifting of this energy are explained in section \ref{sec:summary}.
+
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{../figures/odmr-1.png}
@@ -27,14 +34,17 @@ Therefore the fluorescence spectrum of the diamond is recorded and the position 
 	\begin{subfigure}{0.5\textwidth}
 		\includegraphics[width=\textwidth]{../figures/odmr-bx.png}
 		\subcaption{Magnetic field in $x$-Direction}
+		\label{fig:odmr-magnet-x}
 	\end{subfigure}
 	\begin{subfigure}{0.5\textwidth}
 		\includegraphics[width=\textwidth]{../figures/odmr-by.png}
 		\subcaption{Magnetic field in $y$-Direction}
+		\label{fig:odmr-magnet-y}
 	\end{subfigure}
 	\begin{subfigure}{0.5\textwidth}
 		\includegraphics[width=\textwidth]{../figures/odmr-bz.png}
 		\subcaption{Magnetic field in $z$-Direction}
+		\label{fig:odmr-magnet-z}
 	\end{subfigure}
 	\caption{ODMR spectrum within a magnetic field}
 	\label{fig:odmr-magnet}
